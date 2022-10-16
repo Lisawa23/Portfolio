@@ -549,19 +549,19 @@ iframe{
     stroke-dashoffset: 250;
   }
 }
-/* @media (min-width: 700px) {
+@media (min-width: 1700px) {
   .introDrawings{
     padding-bottom: 400px;
   }
-} */
+}
 @media (max-width: 700px) {
   nav{
     font-size: 10px;
     padding: 0 9px 0 0;
   }
-  .introDrawings{
+  /* .introDrawings{
     padding-bottom: 400px;
-  }
+  } */
 }
 @media (max-width: 500px) {
   nav{
