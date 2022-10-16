@@ -549,16 +549,12 @@ iframe{
     stroke-dashoffset: 250;
   }
 }
-@media (min-width: 1700px) {
+@media (min-width: 1000px) {
   .introDrawings{
     padding-bottom: 400px;
   }
 }
-@media (max-width: 1700px) {
-  .introDrawings{
-    padding-bottom: 400px;
-  }
-}
+
 @media (max-width: 700px) {
   nav{
     font-size: 10px;
