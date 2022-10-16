@@ -550,8 +550,8 @@ iframe{
   }
 }
 @media (min-width: 1700px) {
-  .introDrawings{
-    padding-bottom: 500px;
+  .upper{
+    padding-top: 500px;
   }
 }
 
