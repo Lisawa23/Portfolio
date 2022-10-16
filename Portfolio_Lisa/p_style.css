@@ -549,9 +549,9 @@ iframe{
     stroke-dashoffset: 250;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1700px) {
   .introDrawings{
-    padding-bottom: 400px;
+    padding-bottom: 500px;
   }
 }
 
