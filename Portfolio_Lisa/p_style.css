@@ -591,7 +591,12 @@ iframe{
   .drawtext {
     padding-top: 180px;
   }
- 
+  .slider{
+    height: 50vh;
+  }
+  .graf{
+    width: 46%;
+  }
 }
 
 @media (max-width: 900px){
@@ -613,9 +618,9 @@ iframe{
   .slider{
     height: 40vh;
   }
-  /* .graf{
-    width: 46%;
-  } */
+  .graf{
+    width: 43%;
+  }
  
 }
 @media(max-width: 845px){
