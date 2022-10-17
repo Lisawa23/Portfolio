@@ -593,6 +593,10 @@ iframe{
   .drawtext {
     padding-top: 180px;
   }
+
+  .slider{
+    height: 60vh;
+  }
  
   .graf{
     width: 46%;
