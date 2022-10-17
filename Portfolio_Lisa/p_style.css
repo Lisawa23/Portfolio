@@ -669,7 +669,11 @@ iframe{
   #menu-icon {
     display: flex;
   }
-
+  .introDrawings {
+    float: left;
+    width: 300px;
+    padding-left: 0px;
+  }
   .container {
     max-width: 80%;
   }
@@ -828,11 +832,7 @@ iframe{
     padding-top: 150px;
   }
 
-  .introDrawings {
-    float: left;
-    width: 300px;
-    padding-left: 0px;
-  }
+ 
 
   .section.second {
     margin-bottom: 45px
