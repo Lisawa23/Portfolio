@@ -551,7 +551,12 @@ iframe{
 }
 @media (min-width: 1700px) {
   .upper{
-    padding-top: 100px;
+    padding-top: 180px;
+  }
+}
+@media (max-width: 1699px) {
+  .upper{
+    padding-top: 120px;
   }
 }
 
@@ -561,32 +566,89 @@ iframe{
     width: 100%;
     margin-left: 30px;
   }
+ 
 
   .percent {
     float: left;
     padding-right: 5%;
     padding-left: 4%;
     margin-top: -100px;
+  }
+  .drawtext {
+    padding-top: 250px;
+  }
+  .upper{
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1230px){
+  .footer-col p{
+    font-size: 10px;
+  }
+  .certif{
+    font-size: 10px;
+  }
+  .drawtext {
+    padding-top: 180px;
+  }
+ 
+}
+
+@media (max-width: 900px){
+  nav{
+    font-size: 15px;
+    padding: 0 9px 0 0;
+  }
+  .intro h1 span {
+    font-size: 30px;
+  }
+  .drawtext {
+    padding-top: 100px;
+  }
+  .upper{
+    padding-top: 10px;
+  }
+  .d1 {
+    width: 40%;
+    float: right;
+    padding-right: 40%;
+  }
+  .slider{
+    height: 55vh;
   }
 }
 
 @media (max-width: 700px) {
   nav{
     font-size: 10px;
-    padding: 0 9px 0 0;
+    padding: 0 4px 0 0;
   }
-  /* .dashboard {
-    flex-direction: column;
-    width: 100%;
-    margin-left: 30px;
+  .intro h1:before {
+    font-size: 200px;
+    padding-left: 40px;
+    padding-top: 50px;
+  }
+  .intro h1 span {
+    font-size: 20px;
   }
 
-  .percent {
-    float: left;
-    padding-right: 5%;
-    padding-left: 4%;
-    margin-top: -100px;
-  } */
+}
+@media (max-width:560px){
+  nav{
+    font-size: 5px;
+    padding: 0 0px 0 0;
+  }
+  .intro h1:before {
+    font-size: 160px;
+    padding-left: 60px;
+    padding-top: 50px;
+  }
+  .d1 {
+    width: 45%;
+    float: right;
+    padding-right: 40%;
+  }
+ 
 }
 @media (max-width: 500px) {
   nav{
@@ -595,6 +657,27 @@ iframe{
   .container {
     max-width: 90%;
   }
+  .footer-col p{
+    font-size: 5px;
+  }
+  .certif{
+    font-size: 5px;
+    padding-top: 18px;
+  }
+  .drawings h2 {
+    padding: 30px 0 0 50px;
+    font-size: 30px;
+  }
+  .drawings h1 {
+    padding: 0 0 0 50px;
+    font-size: 30px;
+  }
+  .drawings {
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+  }
+
 }
 @media (max-width: 400px) {
 
@@ -676,18 +759,17 @@ iframe{
     display: block;
     margin: 0.3em;
     color: #000000;
-    font-size: 5px;
   }
 
-  .drawings h2 {
+  /* .drawings h2 {
     padding: 30px 0 0 50px;
     font-size: 30px;
-  }
+  } */
 
-  .drawings h1 {
+  /* .drawings h1 {
     padding: 0 0 0 50px;
     font-size: 30px;
-  }
+  } */
 
   .drawings {
     width: 100%;
@@ -715,7 +797,7 @@ iframe{
   }
 
   .slider {
-    height: 50vh;
+    height: 60vh;
   }
   .graf{
     width: 100%;
@@ -738,7 +820,6 @@ iframe{
   }
   .certif{
     padding-top: 8px;
-    font-size: 5px;
   }
   iframe{
     width: 100%;
