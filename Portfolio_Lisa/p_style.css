@@ -751,9 +751,7 @@ iframe{
     font-size: 18px;
   }
 
-  .intro h1 span {
-    font-size: 22px;
-  }
+ 
 
   #slideout-menu {
     display: block;
@@ -777,7 +775,9 @@ iframe{
     padding-left: 40px;
     padding-top: 50px;
   }
-
+  .intro h1 span {
+    font-size: 20px;
+  }
   .small-50 {
     width: 25%;
   }
