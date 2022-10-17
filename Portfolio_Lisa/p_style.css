@@ -595,11 +595,14 @@ iframe{
   }
 
   .slider{
-    height: 60vh;
+    height: 40vh;
   }
  
   .graf{
     width: 46%;
+  }
+  .upper{
+    padding-top: 80px;
   }
 }
 
@@ -623,7 +626,7 @@ iframe{
     height: 40vh;
   }
   .graf{
-    width: 43%;
+    width: 46%;
   }
  
 }
@@ -674,7 +677,7 @@ iframe{
   }
   .introDrawings {
     float: left;
-    width: 280px;
+    width: 250px;
     padding-left: 0px;
   }
   .container {
