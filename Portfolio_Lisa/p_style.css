@@ -384,7 +384,8 @@ svg {
 
 .introDrawings {
   float: left;
-  width: 50%;
+  width: 40%;
+  padding-left: 20px;
 }
 
 .drawings {
