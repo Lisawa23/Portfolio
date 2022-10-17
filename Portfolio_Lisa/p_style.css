@@ -555,18 +555,45 @@ iframe{
   }
 }
 
+@media (max-width: 1500px){
+  .dashboard {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .percent {
+    float: left;
+    padding-right: 5%;
+    padding-left: 4%;
+    margin-top: -100px;
+  }
+}
+
 @media (max-width: 700px) {
   nav{
     font-size: 10px;
     padding: 0 9px 0 0;
   }
-  /* .introDrawings{
-    padding-bottom: 400px;
+  /* .dashboard {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .percent {
+    float: left;
+    padding-right: 5%;
+    padding-left: 4%;
+    margin-top: -100px;
   } */
 }
 @media (max-width: 500px) {
   nav{
     padding: 0 -10px 0 0;
+  }
+  .container {
+    max-width: 90%;
   }
 }
 @media (max-width: 400px) {
@@ -609,7 +636,7 @@ iframe{
     display: block;
   }
 
-  .dashboard {
+  /* .dashboard {
     flex-direction: column;
     width: 100%;
     margin-left: 30px;
@@ -620,7 +647,7 @@ iframe{
     padding-right: 5%;
     padding-left: 4%;
     margin-top: -100px;
-  }
+  } */
 
   .intro h1:before {
     font-size: 150px;
