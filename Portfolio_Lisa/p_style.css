@@ -743,6 +743,11 @@ iframe{
   body {
     overflow-x: hidden;
   }
+  .introDrawings {
+    float: left;
+    width: 200px;
+    padding-left: 0px;
+  }
 
   /* nav ul {
     display: none;
