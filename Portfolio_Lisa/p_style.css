@@ -611,8 +611,12 @@ iframe{
     padding-right: 40%;
   }
   .slider{
-    height: 55vh;
+    height: 40vh;
   }
+  /* .graf{
+    width: 46%;
+  } */
+ 
 }
 @media(max-width: 845px){
   .upper{
@@ -656,9 +660,30 @@ iframe{
   nav{
     padding: 0 -10px 0 0;
   }
-  .container {
-    max-width: 90%;
+  #menu-icon {
+    display: flex;
   }
+
+  .container {
+    max-width: 80%;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .intro h1 span {
+    font-size: 22px;
+  }
+
+  #slideout-menu {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+
+
   .footer-col p{
     font-size: 5px;
   }
@@ -703,13 +728,13 @@ iframe{
     overflow-x: hidden;
   }
 
-  nav ul {
+  /* nav ul {
     display: none;
-  }
+  } */
 
   
 
-  #menu-icon {
+  /* #menu-icon {
     display: flex;
   }
 
@@ -727,7 +752,7 @@ iframe{
 
   #slideout-menu {
     display: block;
-  }
+  } */
 
   /* .dashboard {
     flex-direction: column;
@@ -807,7 +832,7 @@ iframe{
   }
 
   .slider {
-    height: 60vh;
+    height: 40vh;
   }
   .graf{
     width: 100%;
