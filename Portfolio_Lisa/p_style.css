@@ -742,7 +742,7 @@ iframe{
   }
   .introDrawings {
     float: left;
-    width: 220px;
+    width: 240px;
     padding-left: 0px;
   }
 
@@ -876,7 +876,7 @@ iframe{
     height: 150px;
   }
   .upper{
-    padding-top: 5px;
+    padding-top: 0px;
   }
  
 }
