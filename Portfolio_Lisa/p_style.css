@@ -521,6 +521,11 @@ iframe{
   height: 400px;
 }
 
+.back{
+  background-color: #f4f4f4;
+  padding-top: 5%;
+}
+
 
 @keyframes progress-1 {
   from {
