@@ -530,6 +530,12 @@ iframe{
   margin-top: 5%;
 }
 
+.wideGraphic{
+  width: 100%;
+}
+
+/* Media beginnt */
+
 
 @keyframes progress-1 {
   from {
