@@ -34,4 +34,5 @@ window.addEventListener("load", function(): void {
        window.setTimeout(tick, 300);
     }
     window.setTimeout(tick, 500);
+
 });
