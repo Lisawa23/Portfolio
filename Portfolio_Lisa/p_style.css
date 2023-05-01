@@ -537,8 +537,8 @@ a.prev:hover, a.next:hover {
 
 
 
-/* Media beginnt */
 
+/*die kreise */
 
 @keyframes progress-1 {
   from {
@@ -569,6 +569,10 @@ a.prev:hover, a.next:hover {
     stroke-dashoffset: 250;
   }
 }
+
+
+
+/* Media beginnt */
 @media (min-width: 1700px) {
   .upper{
     padding-top: 180px;
